@@ -47,20 +47,20 @@ tabela[6,6]:=1
 
 escreval("Bem vindo ao jogo do Campo Minado!")
 escreval("Seu objetivo é acertar 6 espaços sem encontrar uma bomba")
-enquanto (soma<>6) E (tabela[coluna,linha]<>2) faca
-   escreval("Digite a coluna que você deseja entre 1 e 6:")
-   leia(coluna)
+enquanto (soma<>6) E (tabela[linha,coluna]<>2) faca
    escreval("Digite a linha que você deseja entre 1 e 6:")
    leia(linha)
-   se(tabela[coluna,linha]=1)entao
-      escreval("Você acertou!")
+   escreval("Digite a coluna que você deseja entre 1 e 6:")
+   leia(coluna)
+   se(tabela[linha,coluna]=1)entao
+      escreval("Muito bem, você não encontrou uma bomba!")
       soma:=soma+1
    fimse
 fimenquanto
-se (tabela[coluna,linha] = 2)entao
-   escreva("Você encontrou uma bomba, PERDEU!!!")
+se (tabela[linha,coluna] = 2)entao
+   escreva("Você encontrou uma bomba, você PERDEU!!!")
 senao
-   escreva("Você escapou das bombas, GANHOU!!!")
+   escreva("Você escapou das bombas. Parbéns você GANHOU!!!")
 fimse
 
 Fimalgoritmo
