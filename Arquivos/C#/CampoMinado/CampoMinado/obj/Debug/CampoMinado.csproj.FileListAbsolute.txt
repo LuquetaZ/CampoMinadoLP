@@ -1,0 +1,7 @@
+C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\bin\Debug\CampoMinado.exe.config
+C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\bin\Debug\CampoMinado.exe
+C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\bin\Debug\CampoMinado.pdb
+C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\obj\Debug\CampoMinado.csproj.AssemblyReference.cache
+C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\obj\Debug\CampoMinado.csproj.CoreCompileInputs.cache
+C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\obj\Debug\CampoMinado.exe
+C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\obj\Debug\CampoMinado.pdb
