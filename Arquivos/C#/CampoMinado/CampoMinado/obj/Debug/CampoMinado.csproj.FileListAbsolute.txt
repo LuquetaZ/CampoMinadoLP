@@ -5,3 +5,10 @@ C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\obj\Debug\Camp
 C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\obj\Debug\CampoMinado.csproj.CoreCompileInputs.cache
 C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\obj\Debug\CampoMinado.exe
 C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado\CampoMinado\obj\Debug\CampoMinado.pdb
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\obj\Debug\CampoMinado.csproj.AssemblyReference.cache
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\obj\Debug\CampoMinado.csproj.CoreCompileInputs.cache
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\obj\Debug\CampoMinado.exe
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\obj\Debug\CampoMinado.pdb
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\bin\Debug\CampoMinado.exe.config
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\bin\Debug\CampoMinado.exe
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\bin\Debug\CampoMinado.pdb
