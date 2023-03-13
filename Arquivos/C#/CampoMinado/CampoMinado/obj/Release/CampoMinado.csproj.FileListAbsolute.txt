@@ -1,0 +1,6 @@
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\bin\Release\CampoMinado.exe.config
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\bin\Release\CampoMinado.exe
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\bin\Release\CampoMinado.pdb
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\obj\Release\CampoMinado.csproj.CoreCompileInputs.cache
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\obj\Release\CampoMinado.exe
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado\CampoMinado\obj\Release\CampoMinado.pdb
