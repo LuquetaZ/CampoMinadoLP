@@ -9,3 +9,14 @@ C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado2\CampoMinado2\obj\Debug\Ca
 C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.csproj.CoreCompileInputs.cache
 C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.exe
 C:\Users\RANIERDALTONDOCOUTO\source\repos\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.pdb
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\bin\Debug\CampoMinado2.exe.config
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\bin\Debug\CampoMinado2.exe
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\bin\Debug\CampoMinado2.pdb
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.csproj.AssemblyReference.cache
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.Form1.resources
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.Form2.resources
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.Properties.Resources.resources
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.csproj.GenerateResource.cache
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.csproj.CoreCompileInputs.cache
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.exe
+C:\Users\RANIERDALTONDOCOUTO\Desktop\Coisas\trabalhos\CampoMinadoLP\Arquivos\C#\CampoMinado2\CampoMinado2\obj\Debug\CampoMinado2.pdb

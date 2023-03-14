@@ -11,8 +11,8 @@ namespace CampoMinado
         static void Main(string[] args)
         {
             int soma = 0;
-            int linha = 1;
-            int coluna = 1;
+            int linha = 0;
+            int coluna = 0;
 
             int[,] tabela = new int[6, 6] { {1,2,1,1,2,1 }, { 1, 1, 1, 1, 2, 1 }, { 2, 1, 1, 2, 1, 2 }, { 1, 1, 2, 1, 1, 1 }, { 1, 1, 1, 1, 2, 1 }, { 2, 1, 2, 1, 1, 1 } } ;
             
@@ -63,6 +63,7 @@ namespace CampoMinado
             Console.WriteLine("Bem vindo ao jogo do Campo Minado!");
             Console.WriteLine("Seu objetivo é acertar 6 espaços sem encontrar uma bomba.");
 
+
             while (soma != 6 && tabela[linha, coluna] == 2) 
             {
                 Console.WriteLine("Digite a linha que você deseja entre 0 e 5:");
@@ -77,6 +78,7 @@ namespace CampoMinado
                     soma++;
                 }
             }
+
             if (tabela[linha, coluna] == 2)
             {
                 Console.WriteLine("Você encontrou uma bomba, você PERDEU!!!");
