@@ -62,9 +62,9 @@ namespace CampoMinado
 
             Console.WriteLine("Bem vindo ao jogo do Campo Minado!");
             Console.WriteLine("Seu objetivo é acertar 6 espaços sem encontrar uma bomba.");
+            
 
-
-            while (soma != 6 && tabela[linha, coluna] == 2) 
+            while (soma != 6 && tabela[linha, coluna] != 2) 
             {
                 Console.WriteLine("Digite a linha que você deseja entre 0 e 5:");
                 linha = Convert.ToInt32(Console.ReadLine());
@@ -87,6 +87,7 @@ namespace CampoMinado
             {
                 Console.WriteLine("Você escapou das bombas. Parbéns você GANHOU!!!");
             }
+            Console.ReadKey();
         }
     }
 }
