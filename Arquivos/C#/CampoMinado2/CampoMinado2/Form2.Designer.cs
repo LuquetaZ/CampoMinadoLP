@@ -31,7 +31,6 @@ namespace CampoMinado2
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.btnA1 = new System.Windows.Forms.Button();
             this.btnA2 = new System.Windows.Forms.Button();
             this.btnA3 = new System.Windows.Forms.Button();
@@ -88,7 +87,7 @@ namespace CampoMinado2
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(354, 428);
+            this.button1.Location = new System.Drawing.Point(210, 424);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 52);
             this.button1.TabIndex = 0;
@@ -96,22 +95,11 @@ namespace CampoMinado2
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(57, 428);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 52);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "REINICIAR";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // btnA1
             // 
             this.btnA1.Location = new System.Drawing.Point(102, 96);
             this.btnA1.Name = "btnA1";
-            this.btnA1.Size = new System.Drawing.Size(69, 32);
+            this.btnA1.Size = new System.Drawing.Size(59, 32);
             this.btnA1.TabIndex = 2;
             this.btnA1.Text = "A1";
             this.btnA1.UseVisualStyleBackColor = true;
@@ -121,7 +109,7 @@ namespace CampoMinado2
             // 
             this.btnA2.Location = new System.Drawing.Point(102, 134);
             this.btnA2.Name = "btnA2";
-            this.btnA2.Size = new System.Drawing.Size(69, 32);
+            this.btnA2.Size = new System.Drawing.Size(59, 32);
             this.btnA2.TabIndex = 3;
             this.btnA2.Text = "A2";
             this.btnA2.UseVisualStyleBackColor = true;
@@ -131,7 +119,7 @@ namespace CampoMinado2
             // 
             this.btnA3.Location = new System.Drawing.Point(102, 172);
             this.btnA3.Name = "btnA3";
-            this.btnA3.Size = new System.Drawing.Size(69, 32);
+            this.btnA3.Size = new System.Drawing.Size(59, 32);
             this.btnA3.TabIndex = 4;
             this.btnA3.Text = "A3";
             this.btnA3.UseVisualStyleBackColor = true;
@@ -141,7 +129,7 @@ namespace CampoMinado2
             // 
             this.btnA4.Location = new System.Drawing.Point(102, 210);
             this.btnA4.Name = "btnA4";
-            this.btnA4.Size = new System.Drawing.Size(69, 32);
+            this.btnA4.Size = new System.Drawing.Size(59, 32);
             this.btnA4.TabIndex = 5;
             this.btnA4.Text = "A4";
             this.btnA4.UseVisualStyleBackColor = true;
@@ -151,7 +139,7 @@ namespace CampoMinado2
             // 
             this.btnA5.Location = new System.Drawing.Point(102, 248);
             this.btnA5.Name = "btnA5";
-            this.btnA5.Size = new System.Drawing.Size(69, 32);
+            this.btnA5.Size = new System.Drawing.Size(59, 32);
             this.btnA5.TabIndex = 6;
             this.btnA5.Text = "A5";
             this.btnA5.UseVisualStyleBackColor = true;
@@ -161,7 +149,7 @@ namespace CampoMinado2
             // 
             this.btnA6.Location = new System.Drawing.Point(102, 286);
             this.btnA6.Name = "btnA6";
-            this.btnA6.Size = new System.Drawing.Size(69, 32);
+            this.btnA6.Size = new System.Drawing.Size(59, 32);
             this.btnA6.TabIndex = 7;
             this.btnA6.Text = "A6";
             this.btnA6.UseVisualStyleBackColor = true;
@@ -171,7 +159,7 @@ namespace CampoMinado2
             // 
             this.btnB6.Location = new System.Drawing.Point(169, 286);
             this.btnB6.Name = "btnB6";
-            this.btnB6.Size = new System.Drawing.Size(69, 32);
+            this.btnB6.Size = new System.Drawing.Size(59, 32);
             this.btnB6.TabIndex = 13;
             this.btnB6.Text = "B6";
             this.btnB6.UseVisualStyleBackColor = true;
@@ -181,7 +169,7 @@ namespace CampoMinado2
             // 
             this.btnB5.Location = new System.Drawing.Point(169, 248);
             this.btnB5.Name = "btnB5";
-            this.btnB5.Size = new System.Drawing.Size(69, 32);
+            this.btnB5.Size = new System.Drawing.Size(59, 32);
             this.btnB5.TabIndex = 12;
             this.btnB5.Text = "B5";
             this.btnB5.UseVisualStyleBackColor = true;
@@ -191,7 +179,7 @@ namespace CampoMinado2
             // 
             this.btnB4.Location = new System.Drawing.Point(169, 210);
             this.btnB4.Name = "btnB4";
-            this.btnB4.Size = new System.Drawing.Size(69, 32);
+            this.btnB4.Size = new System.Drawing.Size(59, 32);
             this.btnB4.TabIndex = 11;
             this.btnB4.Text = "B4";
             this.btnB4.UseVisualStyleBackColor = true;
@@ -201,7 +189,7 @@ namespace CampoMinado2
             // 
             this.btnB3.Location = new System.Drawing.Point(169, 172);
             this.btnB3.Name = "btnB3";
-            this.btnB3.Size = new System.Drawing.Size(69, 32);
+            this.btnB3.Size = new System.Drawing.Size(59, 32);
             this.btnB3.TabIndex = 10;
             this.btnB3.Text = "B3";
             this.btnB3.UseVisualStyleBackColor = true;
@@ -211,7 +199,7 @@ namespace CampoMinado2
             // 
             this.btnB2.Location = new System.Drawing.Point(169, 134);
             this.btnB2.Name = "btnB2";
-            this.btnB2.Size = new System.Drawing.Size(69, 32);
+            this.btnB2.Size = new System.Drawing.Size(59, 32);
             this.btnB2.TabIndex = 9;
             this.btnB2.Text = "B2";
             this.btnB2.UseVisualStyleBackColor = true;
@@ -221,7 +209,7 @@ namespace CampoMinado2
             // 
             this.btnB1.Location = new System.Drawing.Point(169, 96);
             this.btnB1.Name = "btnB1";
-            this.btnB1.Size = new System.Drawing.Size(69, 32);
+            this.btnB1.Size = new System.Drawing.Size(59, 32);
             this.btnB1.TabIndex = 8;
             this.btnB1.Text = "B1";
             this.btnB1.UseVisualStyleBackColor = true;
@@ -231,7 +219,7 @@ namespace CampoMinado2
             // 
             this.btnC6.Location = new System.Drawing.Point(236, 286);
             this.btnC6.Name = "btnC6";
-            this.btnC6.Size = new System.Drawing.Size(69, 32);
+            this.btnC6.Size = new System.Drawing.Size(59, 32);
             this.btnC6.TabIndex = 19;
             this.btnC6.Text = "C6";
             this.btnC6.UseVisualStyleBackColor = true;
@@ -241,7 +229,7 @@ namespace CampoMinado2
             // 
             this.btnC5.Location = new System.Drawing.Point(236, 248);
             this.btnC5.Name = "btnC5";
-            this.btnC5.Size = new System.Drawing.Size(69, 32);
+            this.btnC5.Size = new System.Drawing.Size(59, 32);
             this.btnC5.TabIndex = 18;
             this.btnC5.Text = "C5";
             this.btnC5.UseVisualStyleBackColor = true;
@@ -251,7 +239,7 @@ namespace CampoMinado2
             // 
             this.btnC4.Location = new System.Drawing.Point(236, 210);
             this.btnC4.Name = "btnC4";
-            this.btnC4.Size = new System.Drawing.Size(69, 32);
+            this.btnC4.Size = new System.Drawing.Size(59, 32);
             this.btnC4.TabIndex = 17;
             this.btnC4.Text = "C4";
             this.btnC4.UseVisualStyleBackColor = true;
@@ -261,7 +249,7 @@ namespace CampoMinado2
             // 
             this.btnC3.Location = new System.Drawing.Point(236, 172);
             this.btnC3.Name = "btnC3";
-            this.btnC3.Size = new System.Drawing.Size(69, 32);
+            this.btnC3.Size = new System.Drawing.Size(59, 32);
             this.btnC3.TabIndex = 16;
             this.btnC3.Text = "C3";
             this.btnC3.UseVisualStyleBackColor = true;
@@ -271,7 +259,7 @@ namespace CampoMinado2
             // 
             this.btnC2.Location = new System.Drawing.Point(236, 134);
             this.btnC2.Name = "btnC2";
-            this.btnC2.Size = new System.Drawing.Size(69, 32);
+            this.btnC2.Size = new System.Drawing.Size(59, 32);
             this.btnC2.TabIndex = 15;
             this.btnC2.Text = "C2";
             this.btnC2.UseVisualStyleBackColor = true;
@@ -281,7 +269,7 @@ namespace CampoMinado2
             // 
             this.btnC1.Location = new System.Drawing.Point(236, 96);
             this.btnC1.Name = "btnC1";
-            this.btnC1.Size = new System.Drawing.Size(69, 32);
+            this.btnC1.Size = new System.Drawing.Size(59, 32);
             this.btnC1.TabIndex = 14;
             this.btnC1.Text = "C1";
             this.btnC1.UseVisualStyleBackColor = true;
@@ -291,7 +279,7 @@ namespace CampoMinado2
             // 
             this.btnD6.Location = new System.Drawing.Point(303, 286);
             this.btnD6.Name = "btnD6";
-            this.btnD6.Size = new System.Drawing.Size(69, 32);
+            this.btnD6.Size = new System.Drawing.Size(59, 32);
             this.btnD6.TabIndex = 25;
             this.btnD6.Text = "D6";
             this.btnD6.UseVisualStyleBackColor = true;
@@ -301,7 +289,7 @@ namespace CampoMinado2
             // 
             this.btnD5.Location = new System.Drawing.Point(303, 248);
             this.btnD5.Name = "btnD5";
-            this.btnD5.Size = new System.Drawing.Size(69, 32);
+            this.btnD5.Size = new System.Drawing.Size(59, 32);
             this.btnD5.TabIndex = 24;
             this.btnD5.Text = "D5";
             this.btnD5.UseVisualStyleBackColor = true;
@@ -311,7 +299,7 @@ namespace CampoMinado2
             // 
             this.btnD4.Location = new System.Drawing.Point(303, 210);
             this.btnD4.Name = "btnD4";
-            this.btnD4.Size = new System.Drawing.Size(69, 32);
+            this.btnD4.Size = new System.Drawing.Size(59, 32);
             this.btnD4.TabIndex = 23;
             this.btnD4.Text = "D4";
             this.btnD4.UseVisualStyleBackColor = true;
@@ -321,7 +309,7 @@ namespace CampoMinado2
             // 
             this.btnD3.Location = new System.Drawing.Point(303, 172);
             this.btnD3.Name = "btnD3";
-            this.btnD3.Size = new System.Drawing.Size(69, 32);
+            this.btnD3.Size = new System.Drawing.Size(59, 32);
             this.btnD3.TabIndex = 22;
             this.btnD3.Text = "D3";
             this.btnD3.UseVisualStyleBackColor = true;
@@ -331,7 +319,7 @@ namespace CampoMinado2
             // 
             this.btnD2.Location = new System.Drawing.Point(303, 134);
             this.btnD2.Name = "btnD2";
-            this.btnD2.Size = new System.Drawing.Size(69, 32);
+            this.btnD2.Size = new System.Drawing.Size(59, 32);
             this.btnD2.TabIndex = 21;
             this.btnD2.Text = "D2";
             this.btnD2.UseVisualStyleBackColor = true;
@@ -341,7 +329,7 @@ namespace CampoMinado2
             // 
             this.btnD1.Location = new System.Drawing.Point(303, 96);
             this.btnD1.Name = "btnD1";
-            this.btnD1.Size = new System.Drawing.Size(69, 32);
+            this.btnD1.Size = new System.Drawing.Size(59, 32);
             this.btnD1.TabIndex = 20;
             this.btnD1.Text = "D1";
             this.btnD1.UseVisualStyleBackColor = true;
@@ -351,7 +339,7 @@ namespace CampoMinado2
             // 
             this.btnE6.Location = new System.Drawing.Point(370, 286);
             this.btnE6.Name = "btnE6";
-            this.btnE6.Size = new System.Drawing.Size(69, 32);
+            this.btnE6.Size = new System.Drawing.Size(59, 32);
             this.btnE6.TabIndex = 31;
             this.btnE6.Text = "E6";
             this.btnE6.UseVisualStyleBackColor = true;
@@ -361,7 +349,7 @@ namespace CampoMinado2
             // 
             this.btnE5.Location = new System.Drawing.Point(370, 248);
             this.btnE5.Name = "btnE5";
-            this.btnE5.Size = new System.Drawing.Size(69, 32);
+            this.btnE5.Size = new System.Drawing.Size(59, 32);
             this.btnE5.TabIndex = 30;
             this.btnE5.Text = "E5";
             this.btnE5.UseVisualStyleBackColor = true;
@@ -371,7 +359,7 @@ namespace CampoMinado2
             // 
             this.btnE4.Location = new System.Drawing.Point(370, 210);
             this.btnE4.Name = "btnE4";
-            this.btnE4.Size = new System.Drawing.Size(69, 32);
+            this.btnE4.Size = new System.Drawing.Size(59, 32);
             this.btnE4.TabIndex = 29;
             this.btnE4.Text = "E4";
             this.btnE4.UseVisualStyleBackColor = true;
@@ -381,7 +369,7 @@ namespace CampoMinado2
             // 
             this.btnE3.Location = new System.Drawing.Point(370, 172);
             this.btnE3.Name = "btnE3";
-            this.btnE3.Size = new System.Drawing.Size(69, 32);
+            this.btnE3.Size = new System.Drawing.Size(59, 32);
             this.btnE3.TabIndex = 28;
             this.btnE3.Text = "E3";
             this.btnE3.UseVisualStyleBackColor = true;
@@ -391,7 +379,7 @@ namespace CampoMinado2
             // 
             this.btnE2.Location = new System.Drawing.Point(370, 134);
             this.btnE2.Name = "btnE2";
-            this.btnE2.Size = new System.Drawing.Size(69, 32);
+            this.btnE2.Size = new System.Drawing.Size(59, 32);
             this.btnE2.TabIndex = 27;
             this.btnE2.Text = "E2";
             this.btnE2.UseVisualStyleBackColor = true;
@@ -401,7 +389,7 @@ namespace CampoMinado2
             // 
             this.btnE1.Location = new System.Drawing.Point(370, 96);
             this.btnE1.Name = "btnE1";
-            this.btnE1.Size = new System.Drawing.Size(69, 32);
+            this.btnE1.Size = new System.Drawing.Size(59, 32);
             this.btnE1.TabIndex = 26;
             this.btnE1.Text = "E1";
             this.btnE1.UseVisualStyleBackColor = true;
@@ -411,7 +399,7 @@ namespace CampoMinado2
             // 
             this.btnF6.Location = new System.Drawing.Point(437, 286);
             this.btnF6.Name = "btnF6";
-            this.btnF6.Size = new System.Drawing.Size(69, 32);
+            this.btnF6.Size = new System.Drawing.Size(59, 32);
             this.btnF6.TabIndex = 37;
             this.btnF6.Text = "F6";
             this.btnF6.UseVisualStyleBackColor = true;
@@ -421,7 +409,7 @@ namespace CampoMinado2
             // 
             this.btnF5.Location = new System.Drawing.Point(437, 248);
             this.btnF5.Name = "btnF5";
-            this.btnF5.Size = new System.Drawing.Size(69, 32);
+            this.btnF5.Size = new System.Drawing.Size(59, 32);
             this.btnF5.TabIndex = 36;
             this.btnF5.Text = "F5";
             this.btnF5.UseVisualStyleBackColor = true;
@@ -431,7 +419,7 @@ namespace CampoMinado2
             // 
             this.btnF4.Location = new System.Drawing.Point(437, 210);
             this.btnF4.Name = "btnF4";
-            this.btnF4.Size = new System.Drawing.Size(69, 32);
+            this.btnF4.Size = new System.Drawing.Size(59, 32);
             this.btnF4.TabIndex = 35;
             this.btnF4.Text = "F4";
             this.btnF4.UseVisualStyleBackColor = true;
@@ -441,7 +429,7 @@ namespace CampoMinado2
             // 
             this.btnF3.Location = new System.Drawing.Point(437, 172);
             this.btnF3.Name = "btnF3";
-            this.btnF3.Size = new System.Drawing.Size(69, 32);
+            this.btnF3.Size = new System.Drawing.Size(59, 32);
             this.btnF3.TabIndex = 34;
             this.btnF3.Text = "F3";
             this.btnF3.UseVisualStyleBackColor = true;
@@ -451,7 +439,7 @@ namespace CampoMinado2
             // 
             this.btnF2.Location = new System.Drawing.Point(437, 134);
             this.btnF2.Name = "btnF2";
-            this.btnF2.Size = new System.Drawing.Size(69, 32);
+            this.btnF2.Size = new System.Drawing.Size(59, 32);
             this.btnF2.TabIndex = 33;
             this.btnF2.Text = "F2";
             this.btnF2.UseVisualStyleBackColor = true;
@@ -461,7 +449,7 @@ namespace CampoMinado2
             // 
             this.btnF1.Location = new System.Drawing.Point(437, 96);
             this.btnF1.Name = "btnF1";
-            this.btnF1.Size = new System.Drawing.Size(69, 32);
+            this.btnF1.Size = new System.Drawing.Size(59, 32);
             this.btnF1.TabIndex = 32;
             this.btnF1.Text = "F1";
             this.btnF1.UseVisualStyleBackColor = true;
@@ -470,7 +458,7 @@ namespace CampoMinado2
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(111, 80);
+            this.label1.Location = new System.Drawing.Point(105, 80);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 38;
@@ -480,7 +468,7 @@ namespace CampoMinado2
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(179, 80);
+            this.label2.Location = new System.Drawing.Point(173, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 39;
@@ -490,7 +478,7 @@ namespace CampoMinado2
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(246, 80);
+            this.label3.Location = new System.Drawing.Point(240, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 40;
@@ -500,7 +488,7 @@ namespace CampoMinado2
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(447, 80);
+            this.label4.Location = new System.Drawing.Point(441, 80);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 43;
@@ -510,7 +498,7 @@ namespace CampoMinado2
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(381, 80);
+            this.label5.Location = new System.Drawing.Point(375, 80);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 13);
             this.label5.TabIndex = 42;
@@ -520,7 +508,7 @@ namespace CampoMinado2
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(312, 80);
+            this.label6.Location = new System.Drawing.Point(306, 80);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(51, 13);
             this.label6.TabIndex = 41;
@@ -610,17 +598,18 @@ namespace CampoMinado2
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(54, 358);
+            this.label14.Location = new System.Drawing.Point(53, 369);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(452, 24);
             this.label14.TabIndex = 52;
             this.label14.Text = "Você tem 6 chances para não acertar a bomba!";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(565, 517);
+            this.ClientSize = new System.Drawing.Size(565, 515);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.lblmsg);
             this.Controls.Add(this.label13);
@@ -672,7 +661,6 @@ namespace CampoMinado2
             this.Controls.Add(this.btnA3);
             this.Controls.Add(this.btnA2);
             this.Controls.Add(this.btnA1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
@@ -687,7 +675,6 @@ namespace CampoMinado2
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnA1;
         private System.Windows.Forms.Button btnA2;
         private System.Windows.Forms.Button btnA3;
