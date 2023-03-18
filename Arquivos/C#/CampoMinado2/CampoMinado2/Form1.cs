@@ -17,6 +17,7 @@ namespace CampoMinado2
             InitializeComponent();
         }
 
+        // botão que leva o usuário até o Form2 onde ocorrerá o jogo
         private void btnjogar_Click(object sender, EventArgs e)
         {
             Form2 media = new Form2();
@@ -24,6 +25,7 @@ namespace CampoMinado2
             media.Show();
         }
 
+        // botão que sai da aplicação
         private void btnsair_Click(object sender, EventArgs e)
         {
             Application.Exit();
