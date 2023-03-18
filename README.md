@@ -12,5 +12,5 @@ Atividade instruída pela professora Aline para estimular a lógica por meio do 
 <br>
 
 ## Códigos no nosso projeto
-- Nesta atividade foi realizado três códigos, um no português estruturado (situado na pasta "Português Estruturado" dentro de "Arquivos"), e dois no C# (ambos situados na pasta "C#"), sendo um no modo console e outro no modo gráfico.
+- Nesta atividade foi realizado três códigos, um no português estruturado (situado na pasta "Português Estruturado" dentro de "Arquivos"), e dois no C# (ambos situados na pasta "C#"), sendo um no modo console e outro no modo gráfico. Sendo o "CampoMinado" o modo console e "CampoMinado2" o modo gráfico.
 
