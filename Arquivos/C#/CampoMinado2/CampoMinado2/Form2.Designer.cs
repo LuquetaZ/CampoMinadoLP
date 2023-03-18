@@ -89,7 +89,7 @@ namespace CampoMinado2
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(241, 434);
+            this.button1.Location = new System.Drawing.Point(235, 438);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(177, 52);
             this.button1.TabIndex = 0;
@@ -641,7 +641,7 @@ namespace CampoMinado2
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(209, 380);
+            this.label14.Location = new System.Drawing.Point(221, 377);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(208, 24);
             this.label14.TabIndex = 52;
