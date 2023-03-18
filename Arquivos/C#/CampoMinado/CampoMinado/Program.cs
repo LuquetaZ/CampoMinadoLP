@@ -13,6 +13,8 @@ namespace CampoMinado
             int soma = 0;
             int linha = 0;
             int coluna = 0;
+            int i, j;
+
 
             int[,] tabela = new int[6, 6] { {1,2,1,1,2,1 }, { 1, 1, 1, 1, 2, 1 }, { 2, 1, 1, 2, 1, 2 }, { 1, 1, 2, 1, 1, 1 }, { 1, 1, 1, 1, 2, 1 }, { 2, 1, 2, 1, 1, 1 } } ;
             
@@ -60,9 +62,24 @@ namespace CampoMinado
             tabela[5, 4] = 1; 
             tabela[5, 5] = 1;
 
+
+            
+
+            for (i = 0; i < 6; i++)
+            {
+                for (j = 0; j < 6; j++)
+                {
+                    Console.Write(" ?");
+                    Console.Write(" |");
+                }
+                Console.WriteLine("");
+            }
+            Console.WriteLine("");
+
+
             Console.WriteLine("Bem vindo ao jogo do Campo Minado!");
             Console.WriteLine("Seu objetivo é acertar 6 espaços sem encontrar uma bomba.");
-            
+                        
 
             while (soma != 6 && tabela[linha, coluna] != 2) 
             {
@@ -72,15 +89,53 @@ namespace CampoMinado
                 Console.WriteLine("Digite a coluna que você deseja entre 0 e 5:");
                 coluna = Convert.ToInt32(Console.ReadLine());
 
+                
                 if (tabela[linha,coluna] == 1)
                 {
                     Console.WriteLine("Muito bem, você não encontrou uma bomba!");
                     soma++;
+
+                    for (i = 0; i < 6; i++)
+                    {
+                        for (j=0; j < 6; j++)
+                        {
+                            if (i == linha && j==coluna)
+                            {
+                                Console.Write(" "+ tabela[linha,coluna]);
+                                Console.Write(" |");
+                            }
+                            else
+                            {
+                                Console.Write(" ?");
+                                Console.Write(" |");
+                            }
+                        }
+                        Console.WriteLine("");
+                    }
+                    Console.WriteLine("");
                 }
             }
 
             if (tabela[linha, coluna] == 2)
             {
+                for (i = 0; i < 6; i++)
+                {
+                    for (j = 0; j < 6; j++)
+                    {
+                        if (i == linha && j == coluna)
+                        {
+                            Console.Write(" " + tabela[linha, coluna]);
+                            Console.Write(" |");
+                        }
+                        else
+                        {
+                            Console.Write(" ?");
+                            Console.Write(" |");
+                        }
+                    }
+                    Console.WriteLine("");
+                }
+                Console.WriteLine("");
                 Console.WriteLine("Você encontrou uma bomba, você PERDEU!!!");
             }
             else

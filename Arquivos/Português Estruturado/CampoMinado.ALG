@@ -2,7 +2,7 @@ Algoritmo "CampoMinado"
 
 Var
 tabela:vetor[1..6,1..6]de inteiro
-linha, coluna, soma: inteiro
+verifica,i, j, linha, coluna, soma: inteiro
 
 Inicio
 soma:= 0
@@ -45,8 +45,21 @@ tabela[6,4]:=1
 tabela[6,5]:=1
 tabela[6,6]:=1
 
+para i de 1 ate 6 passo 1 faca
+     para j de 1 ate 6 passo 1 faca
+          escreva (" ?")
+          escreva (" |")
+     fimpara
+     escreval ("")
+fimpara
+escreval("")
+escreval("")
+
 escreval("Bem vindo ao jogo do Campo Minado!")
-escreval("Seu objetivo é acertar 6 espaços sem encontrar uma bomba")
+escreval("Seu objetivo é acertar 6 espaços sem encontrar uma bomba.")
+escreval("As casas com 1 são vazias e as casas com 2 contém bombas.")
+
+
 enquanto (soma<>6) E (tabela[linha,coluna]<>2) faca
    escreval("Digite a linha que você deseja entre 1 e 6:")
    leia(linha)
@@ -55,9 +68,37 @@ enquanto (soma<>6) E (tabela[linha,coluna]<>2) faca
    se(tabela[linha,coluna]=1)entao
       escreval("Muito bem, você não encontrou uma bomba!")
       soma:=soma+1
+      
+    para i de 1 ate 6 passo 1 faca
+     para j de 1 ate 6 passo 1 faca
+       se(i = linha) E (j=coluna) entao
+          escreva (tabela[linha,coluna])
+          escreva (" |")
+       senao
+          escreva (" ?")
+          escreva (" |")
+       fimse
+     fimpara
+     escreval ("")
+    fimpara
    fimse
+   
 fimenquanto
+
+
 se (tabela[linha,coluna] = 2)entao
+   para i de 1 ate 6 passo 1 faca
+     para j de 1 ate 6 passo 1 faca
+       se(i = linha)E (j=coluna) entao
+          escreva (tabela[linha,coluna])
+          escreva (" |")
+       senao
+          escreva (" ?")
+          escreva (" |")
+       fimse
+     fimpara
+     escreval ("")
+fimpara
    escreva("Você encontrou uma bomba, você PERDEU!!!")
 senao
    escreva("Você escapou das bombas. Parbéns você GANHOU!!!")
